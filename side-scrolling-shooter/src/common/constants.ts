@@ -5,5 +5,6 @@ export enum SpriteNames {
 export enum SceneKeys {
     BOOT = 'Boot',
     START = 'Start',
-    PRELOAD = 'Preload'
+    PRELOAD = 'Preload',
+    GAME = 'Game'
 }

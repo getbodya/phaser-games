@@ -1,6 +1,6 @@
 import 'phaser';
 
-import { StartScene, BootScene, PreloadScene } from './scenes';
+import { StartScene, BootScene, PreloadScene, GameScene } from './scenes';
 
 
 const config: GameConfig = {
@@ -11,7 +11,8 @@ const config: GameConfig = {
   scene: [
     BootScene,
     PreloadScene,
-    StartScene
+    StartScene,
+    GameScene
   ]
 };
 
