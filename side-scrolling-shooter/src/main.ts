@@ -13,7 +13,13 @@ const config: GameConfig = {
     PreloadScene,
     StartScene,
     GameScene
-  ]
+  ],
+  physics: {
+    default: 'arcade',
+    arcade: {
+      debug: false
+    }
+  }
 };
 
 new Phaser.Game(config);
